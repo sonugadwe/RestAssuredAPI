@@ -16,6 +16,6 @@ public class WhetherTestCase1 {
 		then()
 		.statusCode(200).
 		body("City",CoreMatchers. equalTo("Nagpur")).
-		body("Humidity", equalTo("53 Percent"));
+		body("Humidity", equalTo("44 Percent"));
 	}
 }
