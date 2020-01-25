@@ -18,7 +18,7 @@ public class WhetherTestcase {
 		then()
 		.statusCode(200).
 		body("City",CoreMatchers. equalTo("Pune")).
-		body("Humidity", equalTo("23 Percent"));
+		body("Humidity", equalTo("32 Percent"));
 	}
 	
 }
